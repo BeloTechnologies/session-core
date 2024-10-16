@@ -9,5 +9,5 @@ CREATE TABLE users (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
 
     followers_count INT DEFAULT 0,
-    following_count INT DEFAULT 0,
+    following_count INT DEFAULT 0
 );
