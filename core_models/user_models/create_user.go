@@ -8,6 +8,7 @@ type CreateUserRow struct {
 	Phone     string `json:"phone"`
 }
 
+// May be pointless, could remove?
 type CreateUserRowResponse struct {
 	ID        int    `json:"id"`
 	Username  string `json:"username"`
